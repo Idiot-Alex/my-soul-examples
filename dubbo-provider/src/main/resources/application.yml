@@ -1,0 +1,15 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: dubbo-provider
+
+dubbo:
+  application:
+    name: dubbo-provider
+  # 注册中心信息
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  scan:
+    base-packages: com.hotstrip.dubbo.provider.server

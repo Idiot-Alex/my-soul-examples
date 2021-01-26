@@ -1,0 +1,13 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: dubbo-consumer
+
+dubbo:
+  application:
+    name: dubbo-consumer
+  # 注册中心信息
+  registry:
+    address: zookeeper://127.0.0.1:2181

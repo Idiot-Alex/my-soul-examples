@@ -28,6 +28,7 @@
 
     <modules>
         <module>http-demo</module>
+        <module>dubbo-api</module>
     </modules>
 
     <properties>
